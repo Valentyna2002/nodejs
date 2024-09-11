@@ -10,7 +10,7 @@ const path = require("node:path");
 const foo = async ()=>{
       try{
           const pathToDir = path.join(__dirname,'baseFolder');
-          await fs.mkdir(pathToDir,{recursive:true}):
+          await fs.mkdir(pathToDir,{recursive:true})
 
           const folderNames = ['folder1','folder2','folder3','folder4','folder5']
           const  fileNames =['file1.tsx','file2.tsx','file3.tsx','file4.tsx','file5.tsx'];
